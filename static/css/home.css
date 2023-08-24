@@ -1,0 +1,605 @@
+@font-face {
+    font-family: porsche;
+    src: url("../resources/fonts/911porschav3bold.ttf");
+}
+
+@font-face {
+    font-family: dup;
+    src: url("../resources/fonts/conthrax-sb.otf");
+}
+
+.text{
+    font-family: myFont;
+    
+}
+.por{
+    font-family: porsche;
+    
+}
+.dup{
+    font-family: dup;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #21245E;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li,
+a,
+button {
+    font-family: sans-serif;
+    font-weight: 31.25rem;
+    font-size: 1.25rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #21245E;
+    padding: 1rem 5%;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: auto;
+    padding: 0.625rem 0.3125rem;
+    font-size: 1.875rem;
+}
+
+.nav-right {
+    padding-left: 12.5rem;
+}
+
+
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.25rem;
+    font-size: 1.56rem;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.fa-brands {
+    padding: 0 0.3125rem;
+    background-color: #21245E;
+    color: rgba(94, 255, 62, 1);
+}
+
+.contactus:hover>.fa-brands {
+    color: rgba(94, 255, 62, 0.7);
+}
+
+.section1 {
+    width: 90vw;
+    height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1320px) {
+    
+    .section1 {
+        height: 60vw;
+    }
+}
+@media screen and (max-width:1617px) {
+    
+    .section1 {
+        height: 50vw;
+    }
+}
+
+.content {
+    background-color: transparent;
+    text-align: center;
+    z-index: 1;
+}
+.no{
+    padding-left: 5vw;
+}
+.conte{
+    
+    padding-top: 15vw;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    margin-top: 20px;
+    opacity: .8;
+}
+.about-us a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    margin-top: 20px;
+    opacity: .8;
+}
+
+.content h1 {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    opacity: .75;
+}
+.section1 a{
+    color: rgb(15, 0, 176);
+    background-color: rgb(255, 255, 255);
+}
+.about-us a{
+    color: rgb(15, 0, 176);
+    background-color: rgb(255, 255, 255);
+}
+
+.phone{
+    visibility: hidden;
+
+}
+@media screen and (max-width:700px) {
+
+    .phone{
+        visibility: visible;
+    }
+    .lappy{
+        visibility: hidden;
+    }
+    .about-us a {
+        
+        
+        font-size: 3vw;
+        font-weight: bold;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 1vw 2vw;
+        
+        margin-bottom: 4vh;
+        
+    }
+}
+.smol {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+}
+@media screen and (max-width:700px) {
+    
+    .num {
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-size: 3vw;
+    }
+    
+}
+
+.big{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 6vw;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+
+
+@media(max-aspect-ratio:16/9) {
+    .video {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+.mute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8rem;
+    height: 8rem;
+    background-color: transparent;
+    /* margin: 0 3rem 3rem 0; */
+    border: none;
+}
+
+@media screen and (max-width:690px) {
+    .mute {
+        width: 4rem;
+        height: 4rem;
+        margin: 0 0rem 0rem 0;
+    }
+}
+
+.fa-volume-high,
+.fa-volume-xmark {
+    background-color: transparent;
+    visibility: visible;
+}
+
+
+.aboutus {
+    position: relative;
+    padding: 1.5%;
+    font-size: 1.875rem;
+    margin: 0;
+    z-index: 1;
+
+}
+
+@media(min-aspect-ratio:16/9) {
+    .video {
+        width: 100vw;
+        height: auto;
+    }
+
+    .aboutus {
+        padding-top: 3%;
+        font-size: 1.875rem;
+    }
+}
+
+.paras1 {
+    display: inline-block;
+    padding: auto;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.p1,
+.p2 {
+    font-family: sans-serif;
+    font-size: 1.3125rem;
+}
+
+.p2 {
+    margin-top: 1.875rem;
+}
+
+.about-us {
+    text-align: center;
+    padding: 3.125rem 0rem;
+    color: whitesmoke;
+}
+
+.pic1 {
+    position: relative;
+    width: 100%;
+    background-image: url('../resources/family.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50.25%;
+    background-size: cover;
+    background-position: center;
+}
+.te{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 2vw;
+    background-color: transparent;
+    padding: 0 5%;
+}
+
+.tot-outer {
+    background-color: white;
+}
+
+.tot-grid {
+    padding: 1.25rem 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tot-grid-item {
+    width: 40%;
+    background-color: white;
+    margin: 0.3125rem;
+}
+
+.tot-grid-item img {
+    width: 100%;
+}
+
+.tot-grid-item:hover {
+    transform: scale(1.1);
+    transition: transform linear 300ms;
+}
+.circlegrid{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
+
+}
+@media screen and (max-width:1000px) {
+
+    .circlegrid{
+        /* background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; */
+        width: 80%;
+    
+    
+    }
+
+}
+
+.reg-btn-outer {
+    padding-top: 3.125rem;
+    background-color: white;
+    text-align: center;
+}
+
+.reg-btn {
+    padding: 0.7rem 4vw;
+    border-radius: 1.25rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.fav-dest {
+    background-color: white;
+    padding: 1.875rem;
+    color: #21245E;
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+
+.fav-dest h2 {
+    margin: 1.25rem;
+    padding-bottom: 1.875rem;
+    color: #21245E;
+    background-color: white;
+    font-size: xx-large;
+}
+
+.grid-container {
+    background-color: white;
+}
+
+.content p{
+    font-size: 2vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    width: 70vw;
+    margin: auto;
+}
+
+.grid-item {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:1160px) {
+
+    .grid-item {
+        width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vw;
+        width: 70vw;
+        margin: auto;
+    }
+
+}
+
+.grid-item1 {
+    background-image: url("../resources/spain1.png");
+}
+
+.grid-item2 {
+    background-image: url("../resources/dubai1.png");
+}
+
+.grid-item3 {
+    background-image: url("../resources/usa1.png");
+}
+
+.grid-item4 {
+    background-image: url("../resources/germany1.png");
+}
+.grid-item .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 21, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.grid-item:hover .content {
+    opacity: .9;
+}
+
+.grid-item .content p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.font{
+    font-size: 100px;
+}
+
+.grid-item1:hover,
+.grid-item2:hover,
+.grid-item3:hover,
+.grid-item4:hover {
+    transform: scale(1.05);
+    transition: transform linear 300ms;
+    z-index: 1;
+}
+
+.txt2 {
+    font-size: 1.875rem;
+    text-align: center;
+    padding: 1.875rem 0 2.5rem 0;
+    background-color: white;
+}
+
+.pic2 {
+    background-image: url("../resources/dashboard\ new-02.png");
+    width: 100%;
+    padding-top: 50.25%;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:630px) {
+    .pic2 {
+        background-image: url("../resources/dashboard\ phone-01.png");
+        /* padding-top: 115vh;
+        width: 100vw; */
+        aspect-ratio: 1726/3543;
+        /* height: max-content; */
+        
+    }
+    
+
+}
+
+.reg-btn2-outer {
+    margin: 1.5625rem;
+}
+
+.reg-btn2 {
+    color: #191919;
+    background-color: white;
+    padding: 0.9375rem 1.5625rem;
+    border-radius: 25px;
+}
+
+.reg-btn2:hover {
+    background-color: whitesmoke;
+    color: rgb(86, 86, 86);
+}
+
+footer {
+    /* position: relative; */
+    /* background-color: red; */
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: white;
+    /* padding: 40px 0px; */
+    text-align: center;
+    bottom: 0;
+    z-index: 10;
+    position: relative;
+    padding: 2.5%;
+    /* font-size: 1.875rem; */
+    margin: 0;
+    z-index: 1;
+}
+
+footer p small {
+    font-family: sans-serif;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section-txt3 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.txt3,
+.reg-btn2-outer {
+    background-color: transparent;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

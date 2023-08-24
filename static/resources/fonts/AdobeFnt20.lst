@@ -1,0 +1,143 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Black
+FamilyName:Lato
+StyleName:Black
+MenuName:Lato Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Lato Black
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/Lato-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89448
+FileModTime:316236056
+NameArray:0,Mac,4,Lato Black
+NameArray:0,Win,1,Lato Black
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:168260
+FileModTime:379362600
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ayuthaya
+FamilyName:Ayuthaya
+StyleName:Regular
+MenuName:Ayuthaya
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Ayuthaya
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/Ayuthaya.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:223044
+FileModTime:709212771
+NameArray:0,Mac,4,Ayuthaya
+NameArray:0,Win,1,Ayuthaya
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:911PorschaBold
+FamilyName:911 Porscha Bold
+StyleName:Bold
+MenuName:911 Porscha Bold
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:911 Porscha Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/911porschav3bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:25168
+FileModTime:447161404
+NameArray:0,Mac,4,911 Porscha Bold
+NameArray:0,Win,1,911 Porscha Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:167336
+FileModTime:379362600
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ConthraxSb-Regular
+FamilyName:Conthrax
+StyleName:SemiBold
+MenuName:Conthrax Sb
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:ConthraxSb-Regular
+WritingScript:Roman
+OutlineFileName:/Users/apple/Desktop/LANDING PAGE Folder/Document fonts/conthrax-sb.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152848
+FileModTime:482576326
+NameArray:0,Mac,4,ConthraxSb-Regular
+NameArray:0,Win,1,Conthrax Sb
+NameArray:0,Win,16,Conthrax
+%EndFont
+

@@ -1,0 +1,98 @@
+.pic1 {
+    background-color: whitesmoke;
+}
+
+.picc{
+    width: 100vw;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-btn-outers {
+    padding-top: 3.125rem;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.reg-btns {
+    background-color: #21245E;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.details {
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+}
+
+.details-description {
+    padding-left: 30%;
+}
+
+.form {
+    padding: 20px;
+    width: 60%;
+    margin: 0;
+}
+
+.para1, .para2 {
+    width: 100%;
+}
+
+.para-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.form-control { 
+    border: 1.5px solid #000000 ;
+    border-radius:0%;
+}
+
+button, input, optgroup, select, textarea {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c757d;
+    --bs-btn-disabled-border-color: #000000;
+}
+.btn {
+    border-radius: 1.25rem;
+    width: 10rem;
+}
+.marg h3{
+    margin-bottom: 30px;
+}
