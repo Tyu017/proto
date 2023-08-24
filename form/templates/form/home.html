@@ -1,0 +1,162 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/home.css'%}">
+</head>
+
+
+<body>
+    <header id="home" class="navi">
+        <a class="logo " href=""><big class="por smol">CARTOURISM.in</big></a>
+        <nav class="nav">
+            <ul class="nav_links">
+                <!-- <li class="nav-right"><a href="#">Register</a></li> -->
+                <li class="nav-right">
+                    <a href="http://wa.me/919811199800" class="contactus num">
+                        +91-9999999999
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <!-- <a href="">+91-9999999999</a> -->
+                    <!-- <h6 class=" smol">+91-9999999999</h6> -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section1">
+
+        <video muted autoplay loop id="myVideo" class="video">
+            <source src="{% static '/resources/vid1.MOV'%}" type="video/mp4">
+        </video>
+        <div class="content conte no">
+            <h1 class="dup smol">WHEN WAS THE LAST TIME YOU FELT<br></h1>
+            <h1 class="dup big">THIS ALIVE?</h1>
+            <a class="whitebg lappy" href="{% url 'form'%}">Register Your Interest</a>
+        </div>
+        <button class="mute control-button" onclick="mute()">
+            <i id="mtbtn" class="fa-solid fa-volume-xmark fa-xl"></i>
+        </button>
+    </div>
+    <div class="about-us" id="abtus">
+        <!-- About Us -->
+        <a class="whitebg phone" href="{% url 'form'%}">Register Your Interest</a>
+        <h2 class="aboutus dup" id="aboutus">ABOUT US</h2>
+        <div class="paras1">
+            <p class="p1">It is our mission to make trips more fun, more memorable and more comfortable.<br>
+                Cartourism is for people who wish to explore the world in the comfort and safe space of a car.
+                Cartourism is not for average tourists who
+                wish to “cover all spots” in a tourist bus. No, no! Cartourism is for evolved tourists. </p>
+            <p class="p2">We want to give you an experience which is truly like no other. A trip full of thrill,
+                adventure, and a smile so big that you end up carrying it
+                back home. The best part is: None of our itineraries are ever repeated because each itinerary is always
+                customised to suit your needs. </p>
+        </div>
+    </div>
+    <div class="pic1">
+        <div class="te dup">
+            HAVING A RENTAL CAR WITH YOUR PEOPLE,YOUR STUFF,YOUR SONGS IS LIKE CARRYING YOUR HOME WITH YOU!
+        </div>
+    </div>
+
+    <div class="tot-outer">
+        <div class="tot-grid">
+            <div class="circlegrid1 circlegrid">
+                <div class="tot-grid-item"> <img src="{% static '/resources/for-families.png'%}" alt=""> </div>
+                <div class="tot-grid-item"> <img src="{% static '/resources/for-couples.png'%}" alt=""> </div>
+            </div>
+            <div class="circlegrid2 circlegrid">
+                <div class="tot-grid-item"> <img src="{% static '/resources/for-friends.png'%}" alt=""> </div>
+                <div class="tot-grid-item"> <img src="{% static '/resources/for-solotrips.png'%}" alt=""> </div>
+            </div>
+            <!-- <div class="tot-grid-item"> <img src="{% static '/resources/for-families.png'%}" alt=""> </div>
+            <div class="tot-grid-item"> <img src="{% static '/resources/for-couples.png'%}" alt=""> </div>
+            <div class="tot-grid-item"> <img src="{% static '/resources/for-friends.png'%}" alt=""> </div>
+            <div class="tot-grid-item"> <img src="{% static '/resources/for-solotrips.png'%}" alt=""> </div> -->
+        </div>
+    </div>
+
+    <div class="reg-btn-outer">
+        <a class="reg-btn" href="{% url 'form'%}">Register your Interest</a>
+    </div>
+
+    <div class="fav-dest" id="favdest">
+        <h2 class="h2 dup">OUR FAVOURITE DESTINATIONS</h2>
+        <div class="grid-container ">
+            <div class="flex-container">
+                <div class="grid-item grid-item1">
+                    <div class="content">
+                        <p> Relive the ZNMD Road Trip with your friends or family
+                            <br>Take on the scenic mountains in a convertible
+                            <br>Cruise through small towns and villages to feel the culture and art Spain is known for
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-item grid-item2">
+                    <div class="content ">
+                        <p class="font dup"> Cover all 7 Emirates in one grand road trip.
+                            <br>Learn to tackle tough terrains like the desert
+                            <br>Experience thrill at Autodrome Racetrack
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="grid-item grid-item3">
+                    <div class="content">
+                        <p>
+                            Take on the epic Pan American Highway: world's 2nd longest road trip.
+                            <br> Utah Offroad Thrills: Scenic adventures in Utah's landscapes.
+                            <br> Drive a convertible as you soak in picturesque charm of sea running right next to you
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-item grid-item4">
+                    <div class="content">
+                        <p> Experience a Porsche in it's natural habitat on curvy Black Forest Roads.
+                            <br> Choose your dream car, cruise the high-speed Autobahn.
+                            <br>Visit your favorite brand's factory and breathe the conic automotive culture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="txt2 dup">
+            Tell us which city you want to visit!
+        </div>
+    </div>
+    <div class="pic2">
+        
+    </div>
+
+    <div class="section1">
+        <video muted autoplay loop id="myVideo" class="video">
+            <source src="{% static '/resources/vid2.mp4'%}" type="video/mp4">
+        </video>
+        <div class="content no">
+            <h1 class="smol dup">WHAT ARE YOU STILL DOING BEHIND A SCREEN?<br>YOU CAN BE HERE!</h1>
+            <a class=" whitebg"href="{% url 'form'%}">Register Your Interest</a>
+        </div>
+        
+    </div>
+
+
+    <footer>
+        <p>
+            <i class="fa-solid fa-copyright"></i>
+            <small>Copyrights CarTourism 2023</small>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="{% static '/js/script.js'%}"></script>
+
+</body>
+
+
+</html>
